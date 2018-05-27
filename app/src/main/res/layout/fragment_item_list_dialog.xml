@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:paddingBottom="@dimen/list_item_spacing_half"
+    android:paddingTop="@dimen/list_item_spacing_half"
+    tools:context="com.example.illya.android_lab_2.ItemListDialogFragment"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:paddingBottom="@dimen/list_item_spacing_half"
+        android:paddingLeft="@dimen/list_item_spacing"
+        android:paddingRight="@dimen/list_item_spacing"
+        android:paddingTop="@dimen/list_item_spacing_half"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+</android.support.constraint.ConstraintLayout>
